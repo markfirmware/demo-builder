@@ -4,3 +4,4 @@ addons:
       - fpc
 script:
   - echo It is now $(date)
+  - fpc -i
