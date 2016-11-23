@@ -1,5 +1,6 @@
 addons:
   apt:
-    - fpc
+    packages:
+      - fpc
 script:
   - echo It is now $(date)
