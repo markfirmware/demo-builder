@@ -1,7 +1,6 @@
-addons:
-  apt:
-    packages:
-      - fpc
+install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y fpc
 script:
   - echo It is now $(date)
   - fpc -i
